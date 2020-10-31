@@ -4,7 +4,7 @@ const zlib = require('zlib');
 
 const port = 3002;
 http.createServer((req, res) => {
-  fs.createReadStream(__dirname + '/index2.html').pipe(res);
+  fs.createReadStream(__dirname + '/index.html').pipe(res);
 }).listen(port, () => {
   console.log(`serveer is listenin on port ${port}`);
 });
@@ -14,7 +14,7 @@ http.createServer((req, res) => {
   res.writeHead(200, { 'content-encoding': 'gzip' });
   
   // readable.pipe(writable)
-  var stream = fs.createReadStream(__dirname + '/inde.html');
+  var stream = fs.createReadStream(__dirname + '/index.html');
 
   stream.on('error', (err) => {
     console.trace();
