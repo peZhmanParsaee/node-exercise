@@ -1,0 +1,6 @@
+{
+  "name": "streaming-audio-example",
+  "dependencies": {
+    "baudio": "^2.1.4"
+  }
+}
