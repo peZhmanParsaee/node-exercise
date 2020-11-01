@@ -1,0 +1,6 @@
+{
+  "name": "streaming-express-app",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
