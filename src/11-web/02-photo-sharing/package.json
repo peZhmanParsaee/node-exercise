@@ -1,0 +1,6 @@
+{
+  "name": "02-photo-sharing",
+  "dependencies": {
+    "formidable": "^1.2.2"
+  }
+}
